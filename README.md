@@ -93,26 +93,3 @@ Choose a license (e.g., MIT) and add a `LICENSE` file to the repository.
 
 ---
 
-# Phiên b?n Ti?ng Vi?t
-
-?ng d?ng Windows Forms k?t n?i USB camera và ch?y nh?n di?n ??i t??ng th?i gian th?c dùng YOLO (ONNX) qua OpenCV DNN.
-
-## Huy hi?u (Badges)
-- C?p nh?t OWNER/REPO sau khi ??y lên GitHub:
-  - Build: `https://github.com/dhockingofthegods/opencvsharp-yolo-industrial/actions/workflows/build.yml/badge.svg`
-  - License: `https://img.shields.io/badge/License-MIT-green.svg`
-
-## Tính n?ng
-- Xem tr?c ti?p USB camera b?ng OpenCvSharp `VideoCapture`.
-- Nh?n di?n ??i t??ng v?i YOLO ONNX (??u ra ki?u YOLOv5/YOLOv8).
-- Ti?n x? lý letterbox chu?n và ánh x? to? ?? bbox v? ?nh g?c.
-- Hi?n th? FPS và c?p nh?t UI m??t mà.
-- Dùng DI và logging chu?n .NET.
-- L?u cài ??t ng??i dùng (AppData).
-- Build x64.
-- Mô-?un hoá services.
-
-## ?nh minh ho? / Demo
-??t ?nh/GIF vào `docs/images/` và tham chi?u:
-- Giao di?n: `![screenshot](docs/images/screenshot.png)`
-- GIF demo: `![demo](docs/images/demo.gif)`
