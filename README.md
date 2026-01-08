@@ -68,13 +68,7 @@ Example fields:
   "InputH": 640
 }
 ```
-Adjust thresholds and input size to match your model for best performance and accuracy.
 
-## Screenshots / Demo
-Place your screenshots or GIFs in `docs/images/` and reference them here:
-
-- App UI: `![screenshot](docs/images/screenshot.png)`
-- Live detection GIF: `![demo](docs/images/demo.gif)`
 
 ## Troubleshooting
 - No camera found: ensure the device is connected; increase probe range in `CameraService.EnumerateCameras()` if needed.
@@ -87,9 +81,5 @@ Place your screenshots or GIFs in `docs/images/` and reference them here:
 - Snapshot/video recording.
 - GPU acceleration (ONNX Runtime GPU / OpenCV DNN CUDA).
 - Support segmentation/pose models.
-
-## License
-Choose a license (e.g., MIT) and add a `LICENSE` file to the repository.
-
 ---
 
