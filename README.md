@@ -4,9 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/dhockingofthegods/opencvsharp-yolo-industrial/blob/main/LICENSE)
 
 A Windows Forms application that connects to a USB camera and performs real-time object detection using YOLO (ONNX) via OpenCV DNN.
-
-Note: Replace OWNER/REPO in the badge URLs above after pushing to GitHub.
-
 ## Features
 - Live USB camera preview using OpenCvSharp `VideoCapture`.
 - Object detection with YOLO ONNX (YOLOv5/YOLOv8 style outputs).
